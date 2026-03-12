@@ -1,47 +1,49 @@
-<!DOCTYPE html> 
-<html> 
- 
-<head> 
-<title>Student Information</title> 
-</head> 
- 
-<body> 
- 
-<h1>Student Information</h1> 
- 
-<h2>Student Photo</h2> 
- 
-<img src="photo.jpeg" alt="Student Photo" width="200"> 
- 
-<h2>Student Details</h2> 
- 
-<table border="1"> 
- 
-<tr> 
-<th>Name</th> 
-<th>Course</th> 
-<th>Year</th> 
-<th>Email</th> 
-</tr> 
- 
-<tr> 
-<td>Rahul Sharma</td> 
-<td>BCA</td> 
-<td>3rd Year</td> 
-<td>rahul@email.com</td> 
-</tr> 
- 
-<tr> 
-<td>Priya Patil</td> 
-<td>BBA</td> 
-<td>2nd Year</td> 
-<td>priya@email.com</td> 
-</tr> 
- 
-</table> 
- 
-</body> 
- 
-</html> 
-  
- 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+</head>
+
+<body>
+
+    <h1>Student Information Page</h1>
+
+    <!-- Student Image -->
+    <h2>Student Photo</h2>
+    <img src="student.jpg" alt="Student Photo" width="200">
+
+    <!-- Student Details Table -->
+    <h2>Student Details</h2>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>Rahul Sharma</td>
+            <td>20</td>
+            <td>BCA</td>
+            <td>Nagpur</td>
+        </tr>
+
+        <tr>
+            <td>Anjali Verma</td>
+            <td>21</td>
+            <td>BSc IT</td>
+            <td>Pune</td>
+        </tr>
+
+        <tr>
+            <td>Aman Singh</td>
+            <td>22</td>
+            <td>B.Tech</td>
+            <td>Delhi</td>
+        </tr>
+    </table>
+
+</body>
+</html>
