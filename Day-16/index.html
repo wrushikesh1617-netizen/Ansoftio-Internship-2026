@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+<title>DOM Task</title> 
+</head> 
+ 
+<body> 
+ 
+<h1 id="heading">Welcome Student</h1> 
+ 
+<input type="text" id="name" placeholder="Waghmode Rushikesh Hanumant">  
+<br><br> 
+ 
+<button onclick="updateName()">Waghmode Rohit </button>  
+<script> 
+ 
+function updateName(){ 
+ 
+    let username = document.getElementById("name").value; 
+ 
+    document.getElementById("heading").innerHTML = "Welcome " + username; 
+ 
+} 
+ 
+</script> 
+ 
+</body> 
+ 
+</html> 
